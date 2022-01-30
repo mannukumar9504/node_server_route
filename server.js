@@ -5,7 +5,6 @@ const app = express(); // instance of express
 app.get("/",(req,res) => { //declare the route here
     res.send("defaut route is called");
 })
-console.log("this is console");
 app.listen(8080, function () { // listening 
     console.log("server runs at port: 8080");
 });
